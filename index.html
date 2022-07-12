@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Scoreboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headings">
+            <h2>HOME</h2>
+            <h2>GUEST</h2>
+        </div>
+        <div class="score">
+            <span id="score"></span>
+            <span id="score2"></span>
+        </div>
+        <div class="buttons">
+            <div class="r-side">
+                <button id="addscore" onclick="increment1()">+1</button>
+                <button id="addscore" onclick="increment2()">+2</button>
+                <button id="addscore" onclick="increment3()">+3</button>
+            </div>
+            <div class="l-side">
+                <button id="l-addscore" onclick="increase1()">+1</button>
+                <button id="l-addscore" onclick="increase2()">+2</button>
+                <button id="l-addscore" onclick="increase3()">+3</button>
+            </div>
+
+        </div>
+        <div class="save">
+            <button id="save" onclick="saveScores()">SAVE</button>
+        </div>
+        <div class="quarters">
+            <div class="quarter">
+                <h2>FIRST QUARTER</h2>
+                <p id="first"></p>
+            </div>
+            <div class="quarter">
+                <h2>SECOND QUARTER</h2>
+                <p id="second"></p>
+            </div>
+            <div class="quarter">
+                <h2>THIRD QUARTER</h2>
+                <p id="third"></p>
+            </div>
+            <div class="quarter">
+                <h2>FOURTH QUARTER</h2>
+                <p id="fourth"></p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

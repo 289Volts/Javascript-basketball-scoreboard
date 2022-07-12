@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 80vh;
+	width: 100%;
+	background-color: black;
+}
+
+.container {
+	margin: 100px auto auto;
+	background-color: #1b244a;
+	color: white;
+	width: 40%;
+	padding: 3rem;
+	border-radius: 10px;
+	box-shadow: 4px 4px 10px 2px #9aabd8;
+	box-shadow: 0 0 5px 1px white;
+}
+
+.headings {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1.5rem;
+	font-family: "Lato", sans-serif;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.7rem;
+	margin-top: 1rem;
+}
+
+.score {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1.3rem;
+	width: 100%;
+}
+
+button {
+	padding: 0.5rem;
+	border: 3px solid #9aabd8;
+	background: transparent;
+	color: white;
+	border-radius: 5px;
+	outline: none;
+	font-family: "Lato", sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+span {
+	background-color: black;
+	font-family: "Bebas Neue", cursive;
+	width: 10rem;
+	height: 9.5rem;
+	color: #f94f6d;
+	text-align: center;
+	font-size: 8rem;
+	border-radius: 8px;
+	box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.164);
+}
+
+.r-side button {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.l-side button {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.save {
+	width: 100%;
+	display: flex;
+	margin: 1.5rem 0;
+}
+
+#save {
+	padding: 0.2rem 1rem;
+	font-size: 1.8rem;
+	margin: 0 auto;
+    cursor: pointer;
+}
+
+.quarters {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	border-bottom: 3px solid #000;
+}
+
+.quarters h2 {
+	font-family: "Lato", sans-serif;
+	font-size: 0.8rem;
+}
+
+.quarter {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.quarter p {
+	color: red;
+	font-family: "Lato", sans-serif;
+	margin: 0.5rem 0 0.5rem 0;
+	text-align: center;
+	font-weight: 600;
+	font-size: 2rem;
+}
