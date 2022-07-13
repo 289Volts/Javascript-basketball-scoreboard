@@ -1,6 +1,6 @@
 # Basketball Scoreboard
  
- This practice task was gotten from the Javascript course on Scrimba. It has been an interesting experience as i have struggled with learning Javascript for some weeks now but learning by building stuff seems to be the better approach
+ This practice task was gotten from the Javascript course on <b>Scrimba</b>. It has been an interesting experience as i have struggled with learning Javascript for some weeks now but learning by building stuff seems to be the better approach
 # TECHNOLOGIES USED
 - HTML
 - CSS
