@@ -18,6 +18,9 @@
 
 <body>
     <div class="container">
+        <div class="logo">
+            <img src="nbba.png" alt="Nigeria basketball federation logo" srcset="">
+        </div>
         <div class="headings">
             <h2>HOME</h2>
             <h2>GUEST</h2>
@@ -37,11 +40,23 @@
                 <button id="l-addscore" onclick="increase2()">+2</button>
                 <button id="l-addscore" onclick="increase3()">+3</button>
             </div>
+        </div>
+        
+        <div class="button">
+            <div class="save">
+                <button id="save" onclick="saveScores1()">1st QUARTER</button>
+            </div>
+            <div class="save">
+                <button id="save" onclick="saveScores2()">2nd QUARTER</button>
+            </div>
+            <div class="save">
+                <button id="save" onclick="saveScores3()">3rd QUARTER</button>
+            </div>
+            <div class="save">
+                <button id="save" onclick="saveScores4()">4th QUARTER</button>
+            </div>
+        </div>
 
-        </div>
-        <div class="save">
-            <button id="save" onclick="saveScores()">SAVE</button>
-        </div>
         <div class="quarters">
             <div class="quarter">
                 <h2>FIRST QUARTER</h2>
