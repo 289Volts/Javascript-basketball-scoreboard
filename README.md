@@ -1,6 +1,10 @@
 # Basketball Scoreboard
  
  This practice task was gotten from the Javascript course on <b>Scrimba</b>. It has been an interesting experience as i have struggled with learning Javascript for some weeks now but learning by building stuff seems to be the better approach
+ 
+ # Live link
+https://289volts.github.io/Javascript-basketball-scoreboard/
+ 
 # TECHNOLOGIES USED
 - HTML
 - CSS
